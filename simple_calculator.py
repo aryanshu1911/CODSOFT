@@ -11,7 +11,7 @@ def product (a, b):
         return a * b
 
 def division (a, b):
-        if b == '0':
+        if b == 0:
             print("Division by 0 not possible")
         else:
              return a / b
