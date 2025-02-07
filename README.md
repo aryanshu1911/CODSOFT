@@ -1,4 +1,2 @@
 # CODSOFT
-Tasks performed during this 4-weeks virtual internship provided by CodSoft. 
-This internship is to develop skills in Pyhton Programming
-by completing 5 tasks by the end of February 2025.  
+Welcome to my GitHub repository, showcasing the tasks and projects completed during my 4-week virtual internship with CodSoft. This internship focuses on enhancing Python programming skills, where I successfully completed 5 hands-on tasks by the end of February 2025.
