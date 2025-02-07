@@ -1,5 +1,20 @@
 # Program to create a Rock-Paper-Scissors Game...
 
+'''
+Rock - Rock = TIE
+Rock - Paper = Paper Wins
+Rock - scizzor = Rock wins
+
+Paper - Paper = TIE
+Paper - Rock = Paper Wins
+Paper - scizzor = Scizzor Wins 
+
+Scizzor - Scizzor - TIE
+Scizzor - Rock = Rock Wins
+Scizzor - Paper = Scizzor Wins
+'''
+
+# import library 'random' to generate random elements
 import random
 
 item_list = ['Rock', 'Paper', 'Scizzor']
@@ -10,7 +25,7 @@ def play_game():
 
     print(f"You chose {user}")
     print(f"Computer chose {computer}\n")
-
+    
     if (user == computer):
         print(f"Both players selected {user}. It's a tie!")
     elif (user == 'Rock'):
@@ -31,7 +46,7 @@ def play_game():
     else:
         print("Invalid input")
 
-#Game starts from here
+# Game starts from here
 print("Welcome to Rock-Paper-Scizzors Game!")    
 play_game()
 
