@@ -1,10 +1,11 @@
 # Program to create a Password Generator...
 
+
 # importing string and random libraries
 import string
 import random
 
-if __name__ == '__main__':
+def main():
     upper = string.ascii_uppercase
     lower = string.ascii_lowercase
     digit = string.digits
@@ -23,3 +24,8 @@ if __name__ == '__main__':
     random.shuffle(s)   
     password = ''.join(s[0:pass_len])
     print("Your password is: ", password)
+
+# Run the program
+if __name__ == '__main__':
+    main()
+
