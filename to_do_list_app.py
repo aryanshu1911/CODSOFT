@@ -62,6 +62,8 @@ def main():
         elif choice == 5:
             print("Thank you for using the To Do List App!")
             break
+        else:
+            print("Invalid input!")
 
 # Execute the program
 if __name__ == "__main__":
