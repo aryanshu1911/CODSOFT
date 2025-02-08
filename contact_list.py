@@ -45,7 +45,7 @@ while True:
         found = False
         for name, phone in contacts.items():
             if search_name in name:
-                print(f"Found - Name {name}, Phone Number: {phone_number}, Email: {email}, Address:{address}")
+                print(f"Found - Name: {name}, Phone Number: {phone_number}, Email: {email}, Address:{address}")
                 found = True
         if not found:
             print("Contact not found!")
